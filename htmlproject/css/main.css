@@ -1,0 +1,38 @@
+@charset "UTF-8";
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+body {   
+    margin: 0;
+}
+#header {
+    background-color: #fff3b5;
+    height: 9.8 vw;
+}
+#logo {
+    display: block;
+    bottom: -60px;
+    position: relative;
+    margin: 0 auto;
+}
+@font-face {
+    font-family: CenturyGothic;
+    src: url(../webfonts/gothic.woff);
+}
+#navigator{
+    font-family: CenturyGothic;
+    text-align:center;
+    text-transform: uppercase;
+    margin-top: 101px;
+}
+#navigator a{
+    text-decoration: none;
+    margin: 0 35px;
+    color:#477473;
+    font-size:20px;
+    transition: font-size 1s;
+}
+#navigator a:hover{
+    font-size:30px;
+}

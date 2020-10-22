@@ -1,0 +1,28 @@
+#layer{
+    display: grid;
+    place-items: center;
+    align-items: center;
+}
+#items-wrapper{
+    width: 100vw;
+}
+#items{
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+}
+.item{
+    flex: none;
+
+    width: 100%;
+    height: 400px;
+    
+    scroll-snap-align: start;
+    pointer-events: none;
+}
+.item img{
+    width: 100%;
+    height: 100%;
+}
